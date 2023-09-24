@@ -1,0 +1,36 @@
+/* ImageUpload.module.css */
+
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-button {
+  background-color: #007bff !important; /* Add !important to override conflicting styles */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #0056b3 !important; /* Add !important to override conflicting styles */
+}
+
+.extracted-text-container {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Add margin between buttons */
+.upload-button + .upload-button {
+  margin-left: 10px;
+}
